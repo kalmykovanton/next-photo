@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kalmykovanton/next-photo/precache-manifest.d34909fe82ebfa3ad11ca4f6c5608b16.js"
+  "/next-photo/precache-manifest.2a28dd409e6a33a98437e0b4a827ccaa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kalmykovanton/next-photo/index.html", {
+workbox.routing.registerNavigationRoute("/next-photo/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
