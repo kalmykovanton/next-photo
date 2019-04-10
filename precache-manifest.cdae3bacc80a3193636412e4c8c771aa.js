@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/next-photo/static/js/runtime~main.3ecb45c7.js"
   },
   {
-    "revision": "d043706a7d3e92a936f0",
-    "url": "/next-photo/static/js/main.f22c5ef1.chunk.js"
+    "revision": "53ce6f636186b0c9c965",
+    "url": "/next-photo/static/js/main.5c506e5f.chunk.js"
   },
   {
     "revision": "919faaeb8b2cf4499b83",
     "url": "/next-photo/static/js/2.49ada116.chunk.js"
   },
   {
-    "revision": "d043706a7d3e92a936f0",
-    "url": "/next-photo/static/css/main.2f0021aa.chunk.css"
+    "revision": "53ce6f636186b0c9c965",
+    "url": "/next-photo/static/css/main.eef382a5.chunk.css"
   },
   {
     "revision": "919faaeb8b2cf4499b83",
     "url": "/next-photo/static/css/2.b30a0aeb.chunk.css"
   },
   {
-    "revision": "c3cca9ea7ef1e1608681262c89c3d436",
+    "revision": "f88b46631ddf2a8a8d1f027f4c5ddeb6",
     "url": "/next-photo/index.html"
   }
 ];
