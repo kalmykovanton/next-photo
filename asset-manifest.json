@@ -1,15 +1,15 @@
 {
-  "main.css": "/next-photo/static/css/main.f9ea6272.chunk.css",
-  "main.js": "/next-photo/static/js/main.61ca472e.chunk.js",
-  "main.js.map": "/next-photo/static/js/main.61ca472e.chunk.js.map",
+  "main.css": "/next-photo/static/css/main.2f0021aa.chunk.css",
+  "main.js": "/next-photo/static/js/main.7da048db.chunk.js",
+  "main.js.map": "/next-photo/static/js/main.7da048db.chunk.js.map",
   "runtime~main.js": "/next-photo/static/js/runtime~main.3ecb45c7.js",
   "runtime~main.js.map": "/next-photo/static/js/runtime~main.3ecb45c7.js.map",
   "static/css/2.b30a0aeb.chunk.css": "/next-photo/static/css/2.b30a0aeb.chunk.css",
-  "static/js/2.a62d633a.chunk.js": "/next-photo/static/js/2.a62d633a.chunk.js",
-  "static/js/2.a62d633a.chunk.js.map": "/next-photo/static/js/2.a62d633a.chunk.js.map",
+  "static/js/2.49ada116.chunk.js": "/next-photo/static/js/2.49ada116.chunk.js",
+  "static/js/2.49ada116.chunk.js.map": "/next-photo/static/js/2.49ada116.chunk.js.map",
   "index.html": "/next-photo/index.html",
-  "precache-manifest.b59ba276bf522471136d9b15f9400b7e.js": "/next-photo/precache-manifest.b59ba276bf522471136d9b15f9400b7e.js",
+  "precache-manifest.67db7bbf7d134599fd881ff40ef22e2e.js": "/next-photo/precache-manifest.67db7bbf7d134599fd881ff40ef22e2e.js",
   "service-worker.js": "/next-photo/service-worker.js",
   "static/css/2.b30a0aeb.chunk.css.map": "/next-photo/static/css/2.b30a0aeb.chunk.css.map",
-  "static/css/main.f9ea6272.chunk.css.map": "/next-photo/static/css/main.f9ea6272.chunk.css.map"
+  "static/css/main.2f0021aa.chunk.css.map": "/next-photo/static/css/main.2f0021aa.chunk.css.map"
 }
