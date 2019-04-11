@@ -55,10 +55,6 @@ body {
   flex-wrap: wrap;
 }
 
-.images-wrapper--bottom-margin {
-  margin-bottom: 20px;
-}
-
 .images-wrapper__item {
   display: flex;
   flex-direction: column;
@@ -73,14 +69,4 @@ body {
   height: 100%;
   width: 100%;
   z-index: 5;
-}
-
-.canvas-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: 1;
 }
