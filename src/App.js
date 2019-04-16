@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 import AppCamera from "./AppCamera";
 import AppButton from "./AppButton";
@@ -12,21 +13,35 @@ class App extends Component {
     timestamp: ""
   };
 
+  sendToS3 = (data, name) => {
+    axios
+      .post(process.env.REACT_APP_BE_PATH_TO_UPLOAD, {
+        photo: data,
+        name
+      })
+      .then(r => r)
+      .catch(e => console.error("UPLOAD ERROR => ", e));
+  };
+
   onTakePhoto = dataUri => {
-    const { firstPhoto, secondPhoto } = this.state;
+    const { firstPhoto, secondPhoto, timestamp } = this.state;
     const takePhotoBtn = document.getElementById("outer-circle");
 
     const takePhoto = () =>
       setTimeout(() => takePhotoBtn && takePhotoBtn.click(), 300);
 
     if (!firstPhoto) {
-      this.setState({ firstPhoto: dataUri, timestamp: Date.now() });
+      const ts = Date.now();
+      this.setState({ firstPhoto: dataUri, timestamp: ts });
+      this.sendToS3(dataUri, `normal_${ts}`);
       takePhoto();
     } else if (!secondPhoto) {
       this.setState({ secondPhoto: dataUri });
+      this.sendToS3(dataUri, `white_${timestamp}`);
       takePhoto();
     } else {
       this.setState({ thirdPhoto: dataUri });
+      this.sendToS3(dataUri, `black_${timestamp}`);
     }
   };
 
