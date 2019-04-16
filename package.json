@@ -11,7 +11,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "REACT_APP_BE_PATH_TO_UPLOAD=http://s3-bucket-proxy.mobidevdemo.com/upload react-scripts start",
+    "start": "REACT_APP_BE_PATH_TO_UPLOAD=//s3-bucket-proxy.mobidevdemo.com/upload react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
