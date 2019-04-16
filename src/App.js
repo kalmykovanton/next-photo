@@ -15,10 +15,18 @@ class App extends Component {
 
   sendToS3 = (data, name) => {
     axios
-      .post(process.env.REACT_APP_BE_PATH_TO_UPLOAD, {
-        photo: data,
-        name
-      })
+      .post(
+        process.env.REACT_APP_BE_PATH_TO_UPLOAD,
+        {
+          photo: data,
+          name
+        },
+        {
+          headers: {
+            "Referrer-Policy": "unsafe-url"
+          }
+        }
+      )
       .then(r => r)
       .catch(e => console.error("UPLOAD ERROR => ", e));
   };
