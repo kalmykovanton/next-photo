@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/next-photo/static/js/runtime~main.3ecb45c7.js"
   },
   {
-    "revision": "dac8331ddc42e87fe359",
-    "url": "/next-photo/static/js/main.08feb2c4.chunk.js"
+    "revision": "915360aab9dcb2ba2a71",
+    "url": "/next-photo/static/js/main.37763059.chunk.js"
   },
   {
     "revision": "52819cec33f845d2f3f8",
     "url": "/next-photo/static/js/2.f448a5d0.chunk.js"
   },
   {
-    "revision": "dac8331ddc42e87fe359",
+    "revision": "915360aab9dcb2ba2a71",
     "url": "/next-photo/static/css/main.7324fec9.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/next-photo/static/css/2.b30a0aeb.chunk.css"
   },
   {
-    "revision": "a52e968a35612ce463c527d06ea30281",
+    "revision": "cd68c6f4deeb487a74e5b8cf4c4f2297",
     "url": "/next-photo/index.html"
   }
 ];
