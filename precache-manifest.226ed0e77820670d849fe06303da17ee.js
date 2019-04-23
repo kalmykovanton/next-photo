@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/next-photo/static/css/2.d291901e.chunk.css"
   },
   {
-    "revision": "bafe90b10c8bb4bec37defbe87ecd802",
+    "revision": "48ea8a4aead2b4e476791a2cfd6e996d",
     "url": "/next-photo/index.html"
   }
 ];
