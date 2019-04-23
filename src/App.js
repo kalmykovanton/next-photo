@@ -23,6 +23,26 @@ class App extends Component {
       .catch(e => console.error("UPLOAD ERROR => ", e));
   };
 
+  initCamera = () => {
+    const video = document.querySelector("video");
+
+    const canvasOverlay = document.getElementById("canvas-overlay");
+    const canvasOverlayCtx = canvasOverlay.getContext("2d");
+    canvasOverlay.width = video.offsetWidth;
+    canvasOverlay.height = video.offsetHeight;
+
+    const img = new Image();
+    img.src = "face_overlay.png";
+    img.width = video.offsetWidth;
+    img.height = video.offsetHeight;
+
+    img.onload = () => {
+      canvasOverlayCtx.drawImage(img, 0, 0, img.width, img.height);
+    };
+  };
+
+  onCameraStart = setTimeout(this.initCamera, 3000);
+
   onTakePhoto = dataUri => {
     const { firstPhoto, secondPhoto, timestamp } = this.state;
     const takePhotoBtn = document.getElementById("outer-circle");
